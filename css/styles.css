@@ -1,20 +1,67 @@
 body{
-    background: lightgray;
+    background: #f4f1de;
     margin: 0 auto;
     width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
 }
 
 form{
-    line-height: 2;
+    line-height: 2.5;
     background: white;
-    padding: 5% 10%;
+    padding: 1% 15%;
 }
 
 h1{
     text-align: center;
+    letter-spacing: .1em;
+    line-height: 1.5;
+    padding-bottom: 3%;
 }
 
 #submit{
+    width: 17%;
     border-radius: 5px;
-    background-color: blue;
+    background-color: #5bc0de;
+    border: 1px solid #5bc0de;
+    color: white;
+    font-weight: bold;
+    padding: 1.5%;
+    text-transform: uppercase;
+}
+
+#submit:hover{
+    background-color: #0275d8;
+    border: 1px solid #0275d8;
+}
+
+input{
+    margin-left: 10px;
+    border: 1px solid #666;
+    border-radius: 2px;
+}
+
+select{
+    margin-left: 10px;
+    border: 1px solid #666;
+    border-radius: 2px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+#county{
+    width: 25%;
+}
+
+h2{
+    text-align: center;
+    height: 100vh;
 }
