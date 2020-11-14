@@ -7,26 +7,18 @@ body{
 }
 
 form{
-    line-height: 2.5;
     background: white;
-    padding: 1% 15%;
+    padding: 0 10%;
 }
 
 h1{
     text-align: center;
-    letter-spacing: .1em;
-    line-height: 1.5;
-    padding-bottom: 3%;
 }
 
 #submit{
-    width: 17%;
-    border-radius: 5px;
     background-color: #5bc0de;
     border: 1px solid #5bc0de;
-    color: white;
     font-weight: bold;
-    padding: 1.5%;
     text-transform: uppercase;
 }
 
@@ -47,16 +39,6 @@ select{
     border-radius: 2px;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex-center{
-    display: flex;
-    justify-content: center;
-}
-
 #county{
     width: 25%;
 }
@@ -64,4 +46,16 @@ select{
 h2{
     text-align: center;
     height: 100vh;
+}
+
+#usernameError{
+    color: red;
+}
+
+#passwordAgainError{
+    color: red;
+}
+
+#zipError{
+    color: red;
 }
